@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Zapatillas Urban Classic",
+    "price": 34000,
+    "category": "Zapatillas",
+    "description": "Zapatillas urbanas cómodas y resistentes, ideales para uso diario. Suela antideslizante y plantilla acolchada.",
+    "imageUrl": "/images/zapatillas-urban-classic.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Botines de Cuero Premium",
+    "price": 58999,
+    "category": "Botines",
+    "description": "Botines de cuero genuino con costura reforzada. Diseño clásico, perfectos para vestir con estilo.",
+    "imageUrl": "/images/botines-cuero-premium.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Ojotas Playa Relax",
+    "price": 14999,
+    "category": "Ojotas",
+    "description": "Ojotas resistentes al agua con plantilla de goma suave y antideslizante, perfectas para la playa o la pileta.",
+    "imageUrl": "/images/ojotas-playa-relax.jpg"
+  }
+]
+

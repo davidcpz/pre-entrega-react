@@ -1,0 +1,15 @@
+/* ItemListContainer.css */
+.item-list-container {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+.item-list-container h1 {
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
