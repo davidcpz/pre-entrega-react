@@ -1,9 +1,11 @@
 import './ItemListContainer.css';
 import { useState, useEffect } from 'react';
 import { ItemList } from '../ItemList/ItemList';
+import { useParams } from 'react-router-dom';
 
 export const ItemListContainer = () => {
 const  [products, setProducts] = useState([])
+const {category}= useParams()
 
 useEffect(() => {
     fetch("/data/products.json")
@@ -14,12 +16,15 @@ useEffect(() => {
         return res.json();
     })
     .then((data) => {
+        if (category) {
+            setProducts(data.filter((prod) => prod.category === category));
+        } else
         setProducts(data);
     })
     .catch((err) => {
         console.error(err);
     });
-}, [])
+}, [category]);
 
 
     return (
